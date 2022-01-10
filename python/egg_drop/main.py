@@ -10,7 +10,7 @@ with open('./dataset/1.txt') as file:
     eggs = int(descriptor[0])
     floors = int(descriptor[1])
 
-
-print(solve_memoization(eggs, floors))
+print(str("Huevos -> ") + str(eggs) + str(" ; Pisos -> ") + str(floors))
+print(solve_tabulation(eggs, floors))
 
 
